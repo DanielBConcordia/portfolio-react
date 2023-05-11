@@ -1,0 +1,69 @@
+#main-box-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+    border-radius: 5px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #ccc;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+  }
+
+  #contact-heading {
+    font-family: 'Bruno Ace', cursive;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #333;
+  }  
+  
+  #main-box-contact p {
+    width: 320px;
+    margin: 10px;
+    font-size: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    background-color: #D3D3D3;
+    position: relative;
+    top: 25px;
+    border-radius: 5px; 
+    font-family: 'Bruno Ace', cursive;
+    color: black;
+    align-items: center;
+  }
+  
+  #main-box-contact a {
+    color: black;
+  }
+  
+#gmail {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 65px;
+    top: -10px;
+    left:  55px;
+    border-radius: 50%;
+}
+
+#github {
+    width: 60px;
+    height: 50px;
+    position: relative;
+    left: 55px;
+    top: -10px;
+}
+  
+  @media screen and (max-width: 600px) {
+    #main-box-contact {
+      width: 80%;
+    }
+    
+    #main-box-contact p {
+      width: 100%;
+      left: 0;
+    }
+  }

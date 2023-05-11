@@ -1,0 +1,70 @@
+.header-box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2d2b2b;
+    padding: 10px;
+    text-align: center;
+    height: 75px;
+    display: flex;
+    color: white;
+    width: 100%;
+
+}
+
+
+  @keyframes linha {
+    from {
+      transform: translateX(-100%);
+    }
+    to {
+      transform: translateX(100%);
+      opacity: 0.5;
+    }
+  }
+
+.header-text {
+    color: white;
+    font-weight: bold;
+    font-size: x-large;
+    margin-left: 70px;
+    animation: brilho 5s ease-in-out infinite;
+    /* margin-right: 1000px; */
+    text-transform: uppercase;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+@keyframes brilho {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .button {
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    height: 35px;
+    width: 250px;
+    margin: 15px;
+  }
+
+
+@media screen and (max-width: 1920px) {
+  .header-box {
+    width: 100%;
+  }
+
+  /* .header-text {
+    margin-right: 800px;
+  } */
+}

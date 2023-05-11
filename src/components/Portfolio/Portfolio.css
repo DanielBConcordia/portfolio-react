@@ -1,0 +1,52 @@
+#main-box-portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 5px;
+    width: 1000px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #ccc;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+
+  }
+
+h2 {
+    font-family: 'Bruno Ace', cursive;
+    color: #333;
+}
+
+/* Estilo para a tabela */
+table {
+    font-family: 'Bruno Ace', cursive;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10x;
+  }
+  
+  /* Estilo para o cabeçalho da tabela */
+  th {
+    padding: 8px;
+    text-align: left;
+    background-color: #ddd;
+    color: #333;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para as células da tabela */
+  td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Estilo para as células da tabela com links */
+  td a {
+    text-decoration: none;
+    color: #333;
+  }

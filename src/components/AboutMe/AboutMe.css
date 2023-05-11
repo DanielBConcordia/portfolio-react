@@ -1,0 +1,48 @@
+#main-box-aboutMe {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border-radius: 5px;
+    width: 1000px;
+    height: 400px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: #ccc;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+    margin-top: 50px;
+
+  }
+
+.name {
+    width: 250px;
+}
+
+.aboutme-text {
+    margin-right: 5px;
+    font-size: 15px;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    background-color: #D3D3D3;
+    position: relative;
+    top: 15px;
+    border-radius: 5px;
+    left: -105px;
+    font-family: 'Bruno Ace', cursive;
+    color: black;
+}
+  
+#PerfilPhoto {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    border-radius: 50%;
+    margin: 15px;
+    border: solid;
+    top: -200px;
+    left: 39%;
+  }
+
+  
